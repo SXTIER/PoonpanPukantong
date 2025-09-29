@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-3 md:mb-4">
               <div className="w-10 h-10 bg-black rounded-full flex items-center justify-center">
-                <img src="/Logo.svg" alt="Logo" className="w-8 h-8" />
+                <img src="/poonpanpukantong.svg" alt="Logo" className="w-8 h-8" />
               </div>
               <span className="srisakdi-regular text-lg md:text-xl text-foreground font-sans">ปูนปั้น ภู่กันทอง</span>
             </div>
