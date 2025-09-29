@@ -25,7 +25,7 @@ export default function Hero() {
           </h1>
             <TextType
               className="text-foreground/90 dark:text-foreground/90 font-sans text-base sm:text-lg md:text-xl mb-6 md:mb-8 max-w-2xl mx-auto text-pretty drop-shadow-md"
-              text={["บริษัทออกแบบพร้อมปั้นลาย และโครงสร้างของวัด", "มีประสบการณ์การทำงานมามากกว่า 24 ปี"]}
+              text={["บริษัทออกแบบ ปั้นลวดลาย และโครงสร้างของวัด", "มีประสบการณ์การทำงานมามากกว่า 24 ปี"]}
               typingSpeed={50}
               pauseDuration={1500}
               showCursor={true}
