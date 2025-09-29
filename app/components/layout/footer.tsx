@@ -13,7 +13,7 @@ export default function Footer() {
               <span className="srisakdi-regular text-lg md:text-xl text-foreground font-sans">ปูนปั้น ภู่กันทอง</span>
             </div>
             <p className="text-muted-foreground leading-relaxed text-sm md:text-base font-sans">
-              ผู้เชี่ยวชาญด้านการออกแบบและปั้นลายวัด มีประสบการณ์มากกว่า 24 ปี
+              ผู้เชี่ยวชาญด้านการออกแบบและปั้นลวดลายวัด มีประสบการณ์มากกว่า 24 ปี
             </p>
           </div>
 
