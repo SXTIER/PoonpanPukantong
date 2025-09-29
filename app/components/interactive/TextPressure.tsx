@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 
 interface TextPressureProps {
   text?: string;
@@ -88,7 +88,7 @@ const TextPressure: React.FC<TextPressureProps> = ({
     };
   }, []);
 
-  const setSize = () => {
+  const setSize = useCallback(() => {
     if (!containerRef.current || !titleRef.current) return;
 
     const { width: containerW, height: containerH } = containerRef.current.getBoundingClientRect();
@@ -113,7 +113,7 @@ const TextPressure: React.FC<TextPressureProps> = ({
         setLineHeight(yRatio);
       }
     });
-  };
+  }, [chars.length, minFontSize, mobileMinFontSize, responsive, scale]);
 
   useEffect(() => {
     setSize();
@@ -162,7 +162,7 @@ const TextPressure: React.FC<TextPressureProps> = ({
 
     animate();
     return () => cancelAnimationFrame(rafId);
-  }, [width, weight, italic, alpha, chars.length]);
+  }, [width, weight, italic, alpha, chars.length, setSize]);
 
   // Determine colors based on theme preference
   const effectiveTextColor = useThemeColors ? 'currentColor' : textColor;
