@@ -60,7 +60,7 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <div className="bg-black w-10 h-10 rounded-full flex items-center justify-center">
-                <img src="/Logo.svg" alt="Logo" className="w-8 h-8" />
+                <img src="/logo.svg" alt="Logo" className="w-8 h-8" />
               </div>
               <span className="srisakdi-regular text-xl font-sans">ปูนปั้น ภู่กันทอง</span>
             </div>
