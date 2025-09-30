@@ -192,7 +192,7 @@ export default function Portfolio() {
       <div className="container mx-auto px-4">
         <div className={`text-center mb-8 md:mb-12 lg:mb-16 ${isVisible ? "slide-up" : "opacity-100"}`}>
           <h2 className="srisakdi-bold text-3xl sm:text-4xl md:text-6xl font-bold text-foreground mb-4 font-sans">
-            ผลงานของเรา
+            ตัวอย่างผลงานของเรา
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto px-4 font-sans">
             ชมผลงานการออกแบบและปั้นลายวัดที่เราได้สร้างสรรค์ด้วยความประณีตและใส่ใจในทุกรายละเอียด
