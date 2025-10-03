@@ -41,7 +41,7 @@ const portfolioItems = [
     description: "อุโบสถ และ ซุ้มประตูทางเข้า ฐานพระ และอุโบสถ",
     image: "images/temple/ubosot-wat-sutthawat-vipassana.jpg",
     category: "ออกแบบ ทำโครงสร้าง และประติมากรรม",
-    additionalImage: "images/temple/ซุ้มประตูทางเข้า-ฐานพระ-อุโบสถ.jpg"
+    additionalImage: "images/temple/sum-pratu-thang-khao-than-phra-ubosot.jpg"
   },
   {
     id: 7,
